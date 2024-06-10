@@ -1,4 +1,4 @@
-package es.rudo.demokmp.android.domain.entity.character
+package es.rudo.demokmp.domain.entity.character
 
 data class Character(
     val id: Int = 0,

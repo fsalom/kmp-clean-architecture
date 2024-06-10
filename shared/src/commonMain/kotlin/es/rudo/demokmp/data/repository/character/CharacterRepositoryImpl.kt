@@ -1,8 +1,9 @@
 package com.example.clean.data.repository
-import es.rudo.demokmp.android.data.datasource.character.CharacterRemoteDataSource
-import es.rudo.demokmp.android.data.datasource.character.remote.dto.CharacterDTO
-import es.rudo.demokmp.android.domain.entity.character.Character
-import es.rudo.demokmp.android.domain.repository.character.CharacterRepository
+
+import es.rudo.demokmp.data.datasource.character.CharacterRemoteDataSource
+import es.rudo.demokmp.data.datasource.character.RickAndMorty.dto.CharacterDTO
+import es.rudo.demokmp.domain.entity.character.Character
+import es.rudo.demokmp.domain.repository.character.CharacterRepository
 
 class CharacterRepositoryImpl(dataSource: CharacterRemoteDataSource) : CharacterRepository {
     private val remoteDataSource: CharacterRemoteDataSource = dataSource
