@@ -1,6 +1,7 @@
-package es.rudo.demokmp.android.data.datasource.character.remote
-import es.rudo.demokmp.android.data.datasource.character.CharacterRemoteDataSource
-import es.rudo.demokmp.android.data.datasource.character.remote.dto.CharacterDTO
+package es.rudo.demokmp.data.datasource.character.RickAndMorty
+
+import es.rudo.demokmp.data.datasource.character.CharacterRemoteDataSource
+import es.rudo.demokmp.data.datasource.character.RickAndMorty.dto.CharacterDTO
 
 
 class CharacterRemoteDataSourceImpl: CharacterRemoteDataSource {

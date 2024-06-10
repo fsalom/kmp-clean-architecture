@@ -1,6 +1,4 @@
-package es.rudo.demokmp.android.data.datasource.character.remote.dto
-
-import java.io.Serializable
+package es.rudo.demokmp.data.datasource.character.RickAndMorty.dto
 
 data class CharacterDTO(
     val id: Int = 0,
@@ -9,4 +7,4 @@ data class CharacterDTO(
     val species: String = "",
     val image: String = "",
     val episodes: List<String> = listOf()
-): Serializable
+)
