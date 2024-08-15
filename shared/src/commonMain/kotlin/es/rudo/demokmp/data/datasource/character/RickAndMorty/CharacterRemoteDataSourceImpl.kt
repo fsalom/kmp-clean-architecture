@@ -2,9 +2,11 @@ package es.rudo.demokmp.data.datasource.character.RickAndMorty
 
 import es.rudo.demokmp.data.datasource.character.CharacterRemoteDataSource
 import es.rudo.demokmp.data.datasource.character.RickAndMorty.dto.CharacterDTO
+import io.ktor.client.HttpClient
 
 
 class CharacterRemoteDataSourceImpl: CharacterRemoteDataSource {
+    private val client = HttpClient()
     override fun getCharacters(): List<CharacterDTO> {
         return createListOfCharacters()
     }
