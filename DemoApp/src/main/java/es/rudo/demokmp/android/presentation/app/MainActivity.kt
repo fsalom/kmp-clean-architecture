@@ -1,4 +1,4 @@
-package es.rudo.demokmp.android
+package es.rudo.demokmp.android.presentation.app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

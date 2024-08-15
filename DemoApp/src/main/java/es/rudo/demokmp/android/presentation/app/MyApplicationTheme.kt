@@ -1,4 +1,4 @@
-package es.rudo.demokmp.android
+package es.rudo.demokmp.android.presentation.app
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
